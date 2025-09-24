@@ -8,6 +8,7 @@
   :root {
     /* Dark navy background theme */
     --background: 220 45% 8%;
+    --hero-background: 220 30% 13%;
     --foreground: 210 40% 98%;
 
     /* Card and popover styling */
