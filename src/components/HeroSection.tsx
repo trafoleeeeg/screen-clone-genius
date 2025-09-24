@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroDiamond from "@/assets/hero-diamond.png";
+import heroDiamond from "@/assets/hero-diamond-new.png";
 
 export default function HeroSection() {
   return (
