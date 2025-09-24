@@ -6,7 +6,7 @@ export default function CTASection() {
       {/* Floating Photos Background */}
       <div className="absolute inset-0 opacity-30">
         <img 
-          src="/lovable-uploads/33.png.png" 
+          src="/lovable-uploads/54.png.png" 
           alt="Content creators" 
           className="w-full h-full object-cover object-center"
         />
