@@ -9,10 +9,10 @@ export default function HeroSection() {
           {/* Text Content */}
           <div className="space-y-6 text-center lg:text-left">
             <div className="space-y-4">
-              <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-foreground leading-tight">
+              <h1 className="text-5xl lg:text-6xl xl:text-7xl font-bold text-foreground leading-tight">
                 Платформа для создателей контента и фанатов
               </h1>
-              <p className="text-lg text-muted-foreground leading-relaxed max-w-lg mx-auto lg:mx-0">
+              <p className="text-xl text-muted-foreground leading-relaxed max-w-lg mx-auto lg:mx-0">
                 Ton.Place объединяет авторов и аудитории, превращая контент в доход.
               </p>
             </div>

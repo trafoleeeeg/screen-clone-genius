@@ -23,7 +23,7 @@ export default function FeaturesSection() {
       <div className="container mx-auto max-w-5xl">
         {/* Section Title */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl lg:text-4xl font-bold text-foreground leading-tight max-w-3xl mx-auto">
+          <h2 className="text-5xl lg:text-6xl font-bold text-foreground leading-tight max-w-3xl mx-auto">
             Пройдите верификацию, чтобы зарабатывать на своем эксклюзивном контенте
           </h2>
         </div>
