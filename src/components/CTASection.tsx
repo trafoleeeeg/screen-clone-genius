@@ -4,11 +4,11 @@ export default function CTASection() {
   return (
     <section className="relative py-16 px-6 cta-section-bg overflow-hidden min-h-[600px] flex items-center">
       {/* Floating Photos Background */}
-      <div className="absolute inset-0 opacity-20">
+      <div className="absolute inset-0 opacity-30">
         <img 
           src="/lovable-uploads/23.png.png" 
           alt="Content creators" 
-          className="w-4/5 h-4/5 object-cover object-center mx-auto mt-8"
+          className="w-full h-full object-cover object-center"
         />
       </div>
 
