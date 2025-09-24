@@ -3,7 +3,7 @@ import heroDiamond from "@/assets/hero-diamond-new.png";
 
 export default function HeroSection() {
   return (
-    <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 pt-16 bg-[#161C28]">
+    <section className="min-h-screen flex items-center justify-center px-2.5 sm:px-6 pt-16 bg-[#161C28]">
       <div className="container mx-auto max-w-6xl">
         <div className="grid lg:grid-cols-2 gap-8 items-center">
           {/* Text Content */}
