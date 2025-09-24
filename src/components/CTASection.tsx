@@ -2,18 +2,18 @@ import { Button } from "@/components/ui/button";
 
 export default function CTASection() {
   return (
-    <section className="relative py-4 px-6 cta-section-bg overflow-hidden min-h-[250px] flex items-start justify-center">
+    <section className="relative py-8 px-6 cta-section-bg overflow-hidden min-h-[450px] flex items-start justify-center">
       {/* Floating Photos Background */}
       <div className="absolute inset-0 opacity-30">
         <img 
-          src="/lovable-uploads/23.png.png" 
+          src="/lovable-uploads/33.png.png" 
           alt="Content creators" 
           className="w-full h-full object-cover object-center"
         />
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto text-center pt-4">
+      <div className="relative z-10 container mx-auto text-center pt-8">
         <div className="space-y-6 max-w-4xl mx-auto">
           <h2 className="text-4xl lg:text-5xl font-bold text-white leading-tight">
             Начните зарабатывать сегодня
