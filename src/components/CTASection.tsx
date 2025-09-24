@@ -22,7 +22,11 @@ export default function CTASection() {
             Творите без границ, превращая ваш талант в стабильный доход.
           </p>
           <div className="pt-2">
-            <Button variant="nav-light" className="text-lg px-8 py-3">
+            <Button 
+              variant="nav-light" 
+              className="text-lg px-8 py-3"
+              onClick={() => window.open('https://ton.place/verification/apply&utm_campaign=models&utm_source=MetaAds&extra_param1=trafolka&extra_param2=apply', '_blank')}
+            >
               Создать аккаунт
             </Button>
           </div>

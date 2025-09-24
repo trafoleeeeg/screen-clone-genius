@@ -14,10 +14,17 @@ export default function Header() {
 
           {/* Navigation */}
           <div className="flex items-center gap-4">
-            <Button variant="default" className="rounded-full">
+            <Button 
+              variant="default" 
+              className="rounded-full"
+              onClick={() => window.open('https://ton.place/verification/apply&utm_campaign=models&utm_source=MetaAds&extra_param1=trafolka&extra_param2=apply', '_blank')}
+            >
               Создать аккаунт
             </Button>
-            <Button variant="nav-dark">
+            <Button 
+              variant="nav-dark"
+              onClick={() => window.open('https://ton.place/verification/apply&utm_campaign=models&utm_source=MetaAds&extra_param1=trafolka&extra_param2=apply', '_blank')}
+            >
               Войти
             </Button>
           </div>

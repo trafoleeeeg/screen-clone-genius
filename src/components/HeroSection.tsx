@@ -19,10 +19,16 @@ export default function HeroSection() {
 
             {/* Action Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button variant="hero-primary">
+              <Button 
+                variant="hero-primary"
+                onClick={() => window.open('https://ton.place/verification/apply&utm_campaign=models&utm_source=MetaAds&extra_param1=trafolka&extra_param2=apply', '_blank')}
+              >
                 Создать аккаунт
               </Button>
-              <Button variant="hero-secondary">
+              <Button 
+                variant="hero-secondary"
+                onClick={() => window.open('https://ton.place/verification/apply&utm_campaign=models&utm_source=MetaAds&extra_param1=trafolka&extra_param2=apply', '_blank')}
+              >
                 Войти
               </Button>
             </div>
