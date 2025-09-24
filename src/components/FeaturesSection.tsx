@@ -16,7 +16,7 @@ export default function FeaturesSection() {
     description: "Получайте донаты в личных сообщениях и на отдельных постах",
     icon: "/lovable-uploads/wallet-icon.png" // кошелек
   }];
-  return <section className="pt-2 pb-20 px-2.5 sm:px-6 features-section-bg">
+  return <section className="pt-2 pb-20 px-1 sm:px-6 features-section-bg">
       <div className="container mx-auto max-w-5xl">
         {/* Section Title */}
         <div className="text-center mb-8 md:mb-12">
