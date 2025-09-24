@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import floatingPhotos from "@/assets/floating-photos.png";
 
 export default function CTASection() {
   return (
@@ -7,7 +6,7 @@ export default function CTASection() {
       {/* Floating Photos Background */}
       <div className="absolute inset-0 opacity-10">
         <img 
-          src={floatingPhotos} 
+          src="/lovable-uploads/image.png.png" 
           alt="Content creators" 
           className="w-full h-full object-cover"
         />
