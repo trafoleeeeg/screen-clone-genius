@@ -28,7 +28,7 @@ export default function FeaturesSection() {
   ];
 
   return (
-    <section className="py-20 px-6">
+    <section className="py-20 px-6 features-section-bg">
       <div className="container mx-auto max-w-5xl">
         {/* Section Title */}
         <div className="text-center mb-12">
@@ -40,23 +40,23 @@ export default function FeaturesSection() {
         {/* Features Grid */}
         <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
           {features.map((feature, index) => (
-            <div key={index} className="feature-card rounded-2xl p-6 hover:scale-105 transition-all duration-300">
-              <div className="flex items-start gap-4">
+            <div key={index} className="feature-card rounded-3xl p-8 hover:scale-105 transition-all duration-300">
+              <div className="flex items-start gap-6">
                 {/* Feature Icon */}
                 <div className="w-16 h-16 flex items-center justify-center flex-shrink-0">
                   <img 
                     src={feature.icon} 
                     alt={feature.title} 
-                    className="w-12 h-12 object-contain"
+                    className="w-14 h-14 object-contain"
                   />
                 </div>
                 
                 {/* Content */}
-                <div className="space-y-2">
-                  <h3 className="text-lg font-bold text-foreground">
+                <div className="space-y-3">
+                  <h3 className="text-xl font-bold text-foreground">
                     {feature.title}
                   </h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">
+                  <p className="text-muted-foreground leading-relaxed">
                     {feature.description}
                   </p>
                 </div>
