@@ -1,20 +1,29 @@
+import iconCoins from "@/assets/icon-coins.png";
+import iconChat from "@/assets/icon-chat.png";
+import iconStar from "@/assets/icon-star.png";
+import iconWallet from "@/assets/icon-wallet.png";
+
 export default function FeaturesSection() {
   const features = [
     {
       title: "Ежедневные выплаты",
-      description: "Получайте доход за активность под вашими публикациями"
+      description: "Получайте доход за активность под вашими публикациями",
+      icon: iconCoins
     },
     {
       title: "Платные сообщения", 
-      description: "Продавайте контент в личных сообщениях с фанатами"
+      description: "Продавайте контент в личных сообщениях с фанатами",
+      icon: iconChat
     },
     {
       title: "Персональные подписки",
-      description: "Подключите дополнительный уровень подписок для самой лояльной аудитории"
+      description: "Подключите дополнительный уровень подписок для самой лояльной аудитории",
+      icon: iconStar
     },
     {
       title: "Чаевые",
-      description: "Получайте донаты в личных сообщениях и на отдельных постах"
+      description: "Получайте донаты в личных сообщениях и на отдельных постах",
+      icon: iconWallet
     }
   ];
 
@@ -33,9 +42,13 @@ export default function FeaturesSection() {
           {features.map((feature, index) => (
             <div key={index} className="feature-card rounded-2xl p-6 hover:scale-105 transition-all duration-300">
               <div className="flex items-start gap-4">
-                {/* Purple Icon Placeholder */}
-                <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-500 to-purple-600 flex items-center justify-center flex-shrink-0 shadow-lg">
-                  <div className="w-6 h-6 bg-white/20 rounded-lg"></div>
+                {/* Feature Icon */}
+                <div className="w-16 h-16 flex items-center justify-center flex-shrink-0">
+                  <img 
+                    src={feature.icon} 
+                    alt={feature.title} 
+                    className="w-12 h-12 object-contain"
+                  />
                 </div>
                 
                 {/* Content */}
