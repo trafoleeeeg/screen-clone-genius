@@ -13,7 +13,7 @@ export default function FeaturesSection() {
     {
       title: "Персональные подписки",
       description: "Подключите дополнительный уровень подписок для самой лояльной аудитории",
-      icon: "/lovable-uploads/star-icon.png" // звезда
+      icon: "/lovable-uploads/star.f139a2fe 1.png.png" // звезды
     },
     {
       title: "Чаевые",
