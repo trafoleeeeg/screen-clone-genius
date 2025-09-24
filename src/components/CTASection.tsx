@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 export default function CTASection() {
   return (
-    <section className="relative py-8 px-6 cta-section-bg overflow-hidden min-h-[300px] flex items-center">
+    <section className="relative py-4 px-6 cta-section-bg overflow-hidden min-h-[250px] flex items-start justify-center">
       {/* Floating Photos Background */}
       <div className="absolute inset-0 opacity-30">
         <img 
@@ -13,16 +13,16 @@ export default function CTASection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto text-center">
-        <div className="space-y-8 max-w-4xl mx-auto">
-          <h2 className="text-5xl lg:text-6xl font-bold text-white leading-tight">
+      <div className="relative z-10 container mx-auto text-center pt-4">
+        <div className="space-y-6 max-w-4xl mx-auto">
+          <h2 className="text-4xl lg:text-5xl font-bold text-white leading-tight">
             Начните зарабатывать сегодня
           </h2>
-          <p className="text-xl text-white/90 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg text-white/90 max-w-2xl mx-auto leading-relaxed">
             Творите без границ, превращая ваш талант в стабильный доход.
           </p>
-          <div className="pt-4">
-            <Button variant="nav-light" className="text-lg px-10 py-4">
+          <div className="pt-2">
+            <Button variant="nav-light" className="text-lg px-8 py-3">
               Создать аккаунт
             </Button>
           </div>
