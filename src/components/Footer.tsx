@@ -1,4 +1,4 @@
-import diamondLogo from "@/assets/diamond-logo.png";
+import diamondLogo from "@/assets/diamond-logo-new.png";
 
 export default function Footer() {
   const footerLinks = [
