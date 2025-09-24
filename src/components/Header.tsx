@@ -3,7 +3,7 @@ import diamondLogo from "@/assets/diamond-logo-new.png";
 
 export default function Header() {
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-sm bg-background/80 border-b border-border/20">
+    <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-sm bg-[#161C28]/90 border-b border-border/20">
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}

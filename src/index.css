@@ -78,15 +78,15 @@
     border: 1px solid rgba(255, 255, 255, 0.08);
   }
 
+  .features-section-bg {
+    background: #1C2438;
+  }
+
   .feature-card-highlighted {
-    background: hsl(var(--background));
+    background: #161C28;
     backdrop-filter: blur(10px);
     border: 1px solid hsl(var(--accent) / 0.3);
     box-shadow: 0 8px 32px hsl(var(--accent) / 0.15);
-  }
-
-  .features-section-bg {
-    background: linear-gradient(180deg, hsl(220 45% 8%) 0%, hsl(220 40% 12%) 100%);
   }
 
   .cta-section-bg {
