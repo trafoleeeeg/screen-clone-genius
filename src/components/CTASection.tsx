@@ -24,7 +24,7 @@ export default function CTASection() {
           <div className="pt-2">
             <Button 
               variant="default" 
-              className="text-lg px-8 py-3"
+              className="text-lg px-8 py-3 rounded-full"
               onClick={() => window.open('https://ton.place/verification/apply&utm_campaign=models&utm_source=MetaAds&extra_param1=trafolka&extra_param2=apply', '_blank')}
             >
               Создать аккаунт
