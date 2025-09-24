@@ -8,7 +8,7 @@ export default function FeaturesSection() {
     {
       title: "Платные сообщения", 
       description: "Продавайте контент в личных сообщениях с фанатами",
-      icon: "/lovable-uploads/chat-icon.png" // чат
+      icon: "/lovable-uploads/message.3e710236 1.png.png" // сообщения
     },
     {
       title: "Персональные подписки",
