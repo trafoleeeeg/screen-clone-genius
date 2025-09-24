@@ -8,7 +8,7 @@ export default function CTASection() {
         <img 
           src="/lovable-uploads/54.png.png" 
           alt="Content creators" 
-          className="w-full h-full object-contain object-center"
+          className="w-full h-full object-contain sm:object-cover object-center"
         />
       </div>
 
