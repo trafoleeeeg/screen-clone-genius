@@ -78,7 +78,7 @@
   }
 
   .feature-card-highlighted {
-    background: linear-gradient(135deg, rgba(199, 89, 48, 0.1), rgba(260, 90, 65, 0.1));
+    background: hsl(var(--background));
     backdrop-filter: blur(10px);
     border: 1px solid hsl(var(--accent) / 0.3);
     box-shadow: 0 8px 32px hsl(var(--accent) / 0.15);
