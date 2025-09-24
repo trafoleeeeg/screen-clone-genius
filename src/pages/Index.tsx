@@ -10,6 +10,8 @@ const Index = () => {
       <Header />
       <main>
         <HeroSection />
+        {/* Gradient transition between sections */}
+        <div className="h-20 bg-gradient-to-b from-[#161C28] to-[#1C2438]"></div>
         <FeaturesSection />
         <CTASection />
       </main>
