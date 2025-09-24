@@ -18,7 +18,7 @@ export default function FeaturesSection() {
     {
       title: "Чаевые",
       description: "Получайте донаты в личных сообщениях и на отдельных постах",
-      icon: "/lovable-uploads/heart-icon.png" // сердце
+      icon: "/lovable-uploads/wallet.43ed0936 1.png.png" // кошелек
     }
   ];
 
