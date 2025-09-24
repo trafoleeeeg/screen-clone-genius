@@ -3,22 +3,22 @@ export default function FeaturesSection() {
     {
       title: "Ежедневные выплаты",
       description: "Получайте доход за активность под вашими публикациями",
-      icon: "/lovable-uploads/image.png.png" // кошелек (4-е изображение)
+      icon: "/lovable-uploads/wallet-icon.png" // кошелек 
     },
     {
       title: "Платные сообщения", 
       description: "Продавайте контент в личных сообщениях с фанатами",
-      icon: "/lovable-uploads/image.png.png" // галочка (3-е изображение)
+      icon: "/lovable-uploads/chat-icon.png" // чат
     },
     {
       title: "Персональные подписки",
       description: "Подключите дополнительный уровень подписок для самой лояльной аудитории",
-      icon: "/lovable-uploads/image.png.png" // звезда (2-е изображение)
+      icon: "/lovable-uploads/star-icon.png" // звезда
     },
     {
       title: "Чаевые",
       description: "Получайте донаты в личных сообщениях и на отдельных постах",
-      icon: "/lovable-uploads/image.png.png" // сердце (1-е изображение)
+      icon: "/lovable-uploads/heart-icon.png" // сердце
     }
   ];
 
@@ -35,7 +35,7 @@ export default function FeaturesSection() {
         {/* Features Grid */}
         <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
           {features.map((feature, index) => (
-            <div key={index} className="feature-card rounded-3xl p-8 hover:scale-105 transition-all duration-300">
+            <div key={index} className="feature-card-highlighted rounded-3xl p-8 hover:scale-105 transition-all duration-300">
               <div className="flex items-start gap-6">
                 {/* Feature Icon */}
                 <div className="w-16 h-16 flex items-center justify-center flex-shrink-0">
