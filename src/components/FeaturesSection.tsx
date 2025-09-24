@@ -1,29 +1,24 @@
-import iconCoins from "@/assets/icon-coins.png";
-import iconChat from "@/assets/icon-chat.png";
-import iconStar from "@/assets/icon-star.png";
-import iconWallet from "@/assets/icon-wallet.png";
-
 export default function FeaturesSection() {
   const features = [
     {
       title: "Ежедневные выплаты",
       description: "Получайте доход за активность под вашими публикациями",
-      icon: iconCoins
+      icon: "/lovable-uploads/image.png.png" // кошелек (4-е изображение)
     },
     {
       title: "Платные сообщения", 
       description: "Продавайте контент в личных сообщениях с фанатами",
-      icon: iconChat
+      icon: "/lovable-uploads/image.png.png" // галочка (3-е изображение)
     },
     {
       title: "Персональные подписки",
       description: "Подключите дополнительный уровень подписок для самой лояльной аудитории",
-      icon: iconStar
+      icon: "/lovable-uploads/image.png.png" // звезда (2-е изображение)
     },
     {
       title: "Чаевые",
       description: "Получайте донаты в личных сообщениях и на отдельных постах",
-      icon: iconWallet
+      icon: "/lovable-uploads/image.png.png" // сердце (1-е изображение)
     }
   ];
 

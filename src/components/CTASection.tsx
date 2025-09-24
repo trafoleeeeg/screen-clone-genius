@@ -3,9 +3,9 @@ import floatingPhotos from "@/assets/floating-photos.png";
 
 export default function CTASection() {
   return (
-    <section className="relative py-32 px-6 gradient-purple overflow-hidden">
+    <section className="relative py-32 px-6 cta-section-bg overflow-hidden">
       {/* Floating Photos Background */}
-      <div className="absolute inset-0 opacity-20">
+      <div className="absolute inset-0 opacity-10">
         <img 
           src={floatingPhotos} 
           alt="Content creators" 
@@ -29,9 +29,6 @@ export default function CTASection() {
           </div>
         </div>
       </div>
-
-      {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-purple-600/80 to-purple-500/80"></div>
     </section>
   );
 }
