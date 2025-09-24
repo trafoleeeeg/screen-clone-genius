@@ -4,7 +4,7 @@ export default function CTASection() {
   return (
     <section className="relative py-4 px-6 pb-12 cta-section-bg overflow-hidden min-h-[200px] flex items-start justify-center">
       {/* Floating Photos Background */}
-      <div className="absolute inset-0 opacity-30">
+      <div className="absolute inset-0">
         <img 
           src="/lovable-uploads/54.png.png" 
           alt="Content creators" 
