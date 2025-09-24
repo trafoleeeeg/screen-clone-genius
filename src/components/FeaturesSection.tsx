@@ -24,7 +24,7 @@ export default function FeaturesSection() {
         </div>
 
         {/* Features Grid */}
-        <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-6 max-w-6xl mx-auto">
           {features.map((feature, index) => <div key={index} className="feature-card-highlighted rounded-3xl p-8 hover:scale-105 transition-all duration-300">
               <div className="flex items-start gap-6">
                 {/* Feature Icon */}
