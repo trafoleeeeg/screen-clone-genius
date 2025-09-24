@@ -2,13 +2,13 @@ import { Button } from "@/components/ui/button";
 
 export default function CTASection() {
   return (
-    <section className="relative py-32 px-6 cta-section-bg overflow-hidden">
+    <section className="relative py-16 px-6 cta-section-bg overflow-hidden min-h-[600px] flex items-center">
       {/* Floating Photos Background */}
-      <div className="absolute inset-0 opacity-10">
+      <div className="absolute inset-0 opacity-30">
         <img 
           src="/lovable-uploads/image.png.png" 
           alt="Content creators" 
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-center"
         />
       </div>
 
