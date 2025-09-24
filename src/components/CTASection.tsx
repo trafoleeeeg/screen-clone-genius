@@ -2,15 +2,9 @@ import { Button } from "@/components/ui/button";
 
 export default function CTASection() {
   return (
-    <section className="relative py-4 px-1 sm:px-6 pb-12 cta-section-bg overflow-hidden min-h-[200px] flex items-start justify-center">
-      {/* Floating Photos Background */}
-      <div className="absolute inset-0">
-        <img 
-          src="/lovable-uploads/54.png.png" 
-          alt="Content creators" 
-          className="w-full h-full object-contain sm:object-cover object-center"
-        />
-      </div>
+    <section className="relative py-4 px-1 sm:px-6 pb-12 cta-section-bg overflow-hidden min-h-[200px] flex items-start justify-center bg-cover bg-center bg-no-repeat" style={{backgroundImage: 'url(/lovable-uploads/54.png.png)'}}>
+      {/* Dark overlay for better text readability */}
+      <div className="absolute inset-0 bg-black/40"></div>
 
       {/* Content */}
       <div className="relative z-10 container mx-auto text-center pt-8">
