@@ -3,7 +3,7 @@ export default function FeaturesSection() {
     {
       title: "Ежедневные выплаты",
       description: "Получайте доход за активность под вашими публикациями",
-      icon: "/lovable-uploads/image.png.png" // сердечки
+      icon: "/lovable-uploads/heart.eded9572.png.png" // сердечки
     },
     {
       title: "Платные сообщения", 
