@@ -14,7 +14,7 @@ export default function Header() {
 
           {/* Navigation */}
           <div className="flex items-center gap-4">
-            <Button variant="nav-dark">
+            <Button variant="default">
               Создать аккаунт
             </Button>
             <Button variant="nav-dark">
