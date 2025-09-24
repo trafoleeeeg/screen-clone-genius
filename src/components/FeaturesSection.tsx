@@ -23,7 +23,7 @@ export default function FeaturesSection() {
   ];
 
   return (
-    <section className="py-20 px-6 features-section-bg">
+    <section className="pt-8 pb-20 px-6 features-section-bg">
       <div className="container mx-auto max-w-5xl">
         {/* Section Title */}
         <div className="text-center mb-12">
