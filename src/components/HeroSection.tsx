@@ -34,7 +34,7 @@ export default function HeroSection() {
               <img 
                 src={heroDiamond} 
                 alt="Diamond Illustration" 
-                className="w-80 h-80 lg:w-96 lg:h-96 object-contain animate-pulse"
+                className="w-64 h-64 lg:w-80 lg:h-80 object-contain animate-diamond-sway"
               />
               <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-accent/20 rounded-full blur-3xl -z-10"></div>
             </div>

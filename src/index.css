@@ -76,6 +76,20 @@
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
+
+  /* Diamond sway animation */
+  @keyframes diamond-sway {
+    0%, 100% {
+      transform: rotate(-2deg) translateY(0px);
+    }
+    50% {
+      transform: rotate(2deg) translateY(-10px);
+    }
+  }
+
+  .animate-diamond-sway {
+    animation: diamond-sway 3s ease-in-out infinite;
+  }
 }
 
 @layer base {
