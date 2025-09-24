@@ -1,15 +1,19 @@
 import diamondLogo from "@/assets/diamond-logo-new.png";
-
 export default function Footer() {
-  const footerLinks = [
-    { label: "ANTI-TRAFFICKING STATEMENT", href: "#" },
-    { label: "Пользовательское соглашение", href: "#" },
-    { label: "Политика конфиденциальности", href: "#" },
-    { label: "Поддержка", href: "#" }
-  ];
-
-  return (
-    <footer className="bg-background border-t border-border/20 py-12 px-6">
+  const footerLinks = [{
+    label: "ANTI-TRAFFICKING STATEMENT",
+    href: "#"
+  }, {
+    label: "Пользовательское соглашение",
+    href: "#"
+  }, {
+    label: "Политика конфиденциальности",
+    href: "#"
+  }, {
+    label: "Поддержка",
+    href: "#"
+  }];
+  return <footer className="bg-background border-t border-border/20 py-12 px-6">
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           {/* Logo */}
@@ -19,19 +23,8 @@ export default function Footer() {
           </div>
 
           {/* Footer Links */}
-          <div className="flex flex-wrap items-center justify-center gap-8 text-sm">
-            {footerLinks.map((link, index) => (
-              <a 
-                key={index}
-                href={link.href}
-                className="text-muted-foreground hover:text-foreground transition-colors duration-200 uppercase tracking-wide"
-              >
-                {link.label}
-              </a>
-            ))}
-          </div>
+          
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 }
