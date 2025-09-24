@@ -28,8 +28,8 @@ export default function FeaturesSection() {
           {features.map((feature, index) => <div key={index} className="feature-card-highlighted rounded-3xl p-8 hover:scale-105 transition-all duration-300">
               <div className="flex items-start gap-6">
                 {/* Feature Icon */}
-                <div className="w-16 h-16 flex items-center justify-center flex-shrink-0">
-                  <img src={feature.icon} alt={feature.title} className="w-14 h-14 object-contain" />
+                <div className="w-20 h-20 flex items-center justify-center flex-shrink-0">
+                  <img src={feature.icon} alt={feature.title} className="w-20 h-20 object-contain" />
                 </div>
                 
                 {/* Content */}
